@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llHeaderBase"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/preference_title_height1"
+    android:background="@drawable/activity_title_bar_44"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" >
+
+        <include layout="@layout/include_inside_right_button" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen_top_bar_title_text_size" />
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnOperate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/top_bar_margin_side"
+            android:textSize="@dimen/btnOperate_font_size"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

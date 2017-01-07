@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu">
+        <item>复制</item>
+        <item>删除</item>
+        <item>剪切</item>
+        <item>压缩文件</item>
+        <item>重命名</item>
+        <item>添加到收藏</item>
+        <item>查看属性</item>
+    </string-array>
+    <string-array name="menu1">
+        <item>复制</item>
+        <item>删除</item>
+        <item>剪切</item>
+        <item>分享</item>
+        <item>压缩文件</item>
+        <item>重命名</item>
+        <item>添加到收藏</item>
+        <item>查看属性</item>
+    </string-array>
+    <string-array name="menu2">
+        <item>删除</item>
+        <item>分享</item>
+        <item>压缩文件</item>
+        <item>重命名</item>
+        <item>查看属性</item>
+    </string-array>
+    <string-array name="menu4">
+        <item>删除</item>
+        <item>压缩文件</item>
+        <item>重命名</item>
+        <item>查看属性</item>
+    </string-array>
+    <string-array name="menu3">
+        <item>删除</item>
+        <item>分享</item>
+        <item>压缩文件</item>
+        <item>重命名</item>
+        <item>取消收藏</item>
+        <item>查看属性</item>
+    </string-array>
+    <string-array name="menu5">
+        <item>删除</item>
+        <item>压缩文件</item>
+        <item>重命名</item>
+        <item>取消收藏</item>
+        <item>查看属性</item>
+    </string-array>
+    <string-array name="create">
+        <item>文件</item>
+        <item>文件夹</item>
+    </string-array>
+    <string-array name="apkmenu">
+        <item>启动软件</item>
+        <item>卸载软件</item>
+        <item>备份软件</item>
+        <item>详细信息</item>
+    </string-array>
+    <string-array name="sort">
+        <item>按名称</item>
+        <item>按时间</item>
+        <item>按大小</item>
+    </string-array>
+    <string-array name="paste">
+        <item>粘贴至当前目录</item>
+        <item>从剪贴板内删除</item>
+    </string-array>
+    <string-array name="action">
+        <item>复制</item>
+        <item>删除</item>
+        <item>剪切</item>
+        <item>压缩文件</item>
+    </string-array>
+    <string-array name="file_tab_labels">
+        <item>分类浏览</item>
+        <item>手机U盘</item>
+        <item>远程管理</item>
+        <item>应用管理</item>
+    </string-array>
+
+</resources>

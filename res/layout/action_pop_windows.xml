@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_popup_list"
+        android:layout_width="match_parent"
+        android:divider="@color/bar_color"
+        android:dividerHeight="1px"
+        android:scrollbars="none"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true" />
+
+</LinearLayout>

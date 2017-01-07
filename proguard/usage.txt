@@ -1,0 +1,915 @@
+com.example.managerfile.BuildConfig
+com.example.managerfile.Exception.ExceptionCode
+com.example.managerfile.Exception.ExceptionCode$MicroBlog
+com.example.managerfile.Exception.SNSException
+com.example.managerfile.R
+com.example.managerfile.R$anim
+com.example.managerfile.R$array
+com.example.managerfile.R$attr
+com.example.managerfile.R$color
+com.example.managerfile.R$dimen
+com.example.managerfile.R$drawable
+com.example.managerfile.R$id
+com.example.managerfile.R$layout
+com.example.managerfile.R$menu
+com.example.managerfile.R$raw
+com.example.managerfile.R$string
+com.example.managerfile.R$style
+com.example.managerfile.R$xml
+com.example.managerfile.adapter.CollectFileListAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+    public static final int ITEM_VIEW_APK
+    301:302:public void NofityAll()
+    306:311:public void MakeAllItemsSelected()
+    315:320:public void MakeAllItemsUnselected()
+    324:333:public java.util.List GetCheckItems()
+    338:344:public int getCheckedItemsNumber()
+com.example.managerfile.adapter.CollectFileListAdapter$viewHolder:
+    com.example.managerfile.task.ApkIconLoadTask mApkIconLoadTask
+com.example.managerfile.adapter.DialogMenuAdapter
+com.example.managerfile.adapter.DialogMenuAdapter$ViewHolder
+com.example.managerfile.adapter.GridAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+    249:260:public java.util.List GetCheckItems()
+com.example.managerfile.adapter.ImageListAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+    252:253:public void NofityAll()
+    257:262:public void MakeAllItemsSelected()
+    266:271:public void MakeAllItemsUnselected()
+    275:284:public java.util.List GetCheckItems()
+    289:295:public int getCheckedItemsNumber()
+com.example.managerfile.adapter.ListAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+    public static final int ITEM_VIEW_NOT_APK
+    public static final int ITEM_VIEW_APK
+com.example.managerfile.adapter.MusicListAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+    252:253:public void NofityAll()
+    257:262:public void MakeAllItemsSelected()
+    266:271:public void MakeAllItemsUnselected()
+    275:284:public java.util.List GetCheckItems()
+    289:295:public int getCheckedItemsNumber()
+com.example.managerfile.adapter.NormalFileListAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+    public static final int ITEM_VIEW_APK
+    300:301:public void NofityAll()
+    305:310:public void MakeAllItemsSelected()
+    314:319:public void MakeAllItemsUnselected()
+    323:332:public java.util.List GetCheckItems()
+    337:343:public int getCheckedItemsNumber()
+com.example.managerfile.adapter.NormalFileListAdapter$viewHolder:
+    com.example.managerfile.task.ApkIconLoadTask mApkIconLoadTask
+com.example.managerfile.adapter.PasteGridAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+com.example.managerfile.adapter.VideoListAdapter:
+    int phSize
+    protected static final int PHO_DIP
+    public float PIX_SCALE
+    public static final int ITEM_VIEW_PIC
+    public static final int ITEM_VIEW_NOT_PIC
+    283:284:public void NofityAll()
+    288:294:public void MakeAllItemsSelected()
+    298:304:public void MakeAllItemsUnselected()
+    308:319:public java.util.List GetCheckItems()
+    324:332:public int getCheckedItemsNumber()
+com.example.managerfile.cache.Cache
+com.example.managerfile.cache.ImageCache:
+    private static final int MAX_CAPACITY
+    private static final long DELAY_BEFORE_PURGE
+    91:94:public synchronized void clear()
+    97:97:public synchronized java.lang.String getFolder(com.example.managerfile.cache.wrap.ImageInfo$ImageType)
+    101:103:public synchronized java.lang.String getPath(com.example.managerfile.cache.wrap.ImageInfo)
+    110:119:public synchronized void flush()
+    147:149:public synchronized boolean reclaim(com.example.managerfile.cache.ReclaimLevel)
+    153:153:public synchronized boolean containsKey(com.example.managerfile.cache.wrap.ImageInfo)
+    168:169:public synchronized android.graphics.Bitmap getFromCache(com.example.managerfile.cache.wrap.ImageInfo)
+    220:221:public synchronized void remove(com.example.managerfile.cache.wrap.ImageInfo)
+    238:242:public synchronized java.lang.String getImageUrl(com.example.managerfile.cache.wrap.ImageInfo)
+    254:258:public synchronized java.lang.String getimagename(com.example.managerfile.cache.wrap.ImageInfo)
+    266:267:public synchronized void write(java.lang.String,android.graphics.Bitmap)
+    271:277:public synchronized void destroy()
+    1:1:public bridge synthetic java.lang.Object read(java.lang.Object)
+    1:1:public bridge synthetic boolean containsKey(java.lang.Object)
+    1:1:public bridge synthetic java.lang.Object get(java.lang.Object)
+    1:1:public bridge synthetic void write(java.lang.Object,java.lang.Object)
+    1:1:public bridge synthetic void remove(java.lang.Object)
+    1:1:public bridge synthetic void put(java.lang.Object,java.lang.Object)
+com.example.managerfile.cache.ImageCache$1:
+    private static final long serialVersionUID
+com.example.managerfile.cache.MapCache
+com.example.managerfile.cache.ReclaimLevel
+com.example.managerfile.cache.wrap.BaseModel:
+    private static final long serialVersionUID
+com.example.managerfile.cache.wrap.BitmapWrap:
+    private static final int REFERENCE_DIVIDER_SIZE
+    27:27:public boolean isValid()
+    1:1:public bridge synthetic java.lang.Object getWrap()
+    1:1:public bridge synthetic void setWrap(java.lang.Object)
+com.example.managerfile.cache.wrap.ImageInfo:
+    private static final long serialVersionUID
+    88:89:public void setImageName(java.lang.String)
+    92:93:public void setImageType(com.example.managerfile.cache.wrap.ImageInfo$ImageType)
+com.example.managerfile.cache.wrap.Wrap:
+    12:12:public int getHit()
+    public abstract java.lang.Object getWrap()
+    18:20:public void hit()
+    23:23:public boolean isLocalCached()
+    31:32:public void setLocalCached(boolean)
+    35:35:public long getLastUsed()
+    public abstract void setWrap(java.lang.Object)
+com.example.managerfile.listener.CollectedFileOnClickListener:
+    private android.widget.TextView mPath
+    35:43:public CollectedFileOnClickListener(android.content.Context,android.widget.LinearLayout,android.widget.FrameLayout,android.widget.ListView,java.util.List,java.util.Stack)
+com.example.managerfile.listener.CollectedFileOnLongClickListener:
+    32:39:public CollectedFileOnLongClickListener(android.content.Context,android.widget.LinearLayout,android.widget.FrameLayout,android.widget.ListView,java.util.List)
+com.example.managerfile.model.ApkInfo:
+    14:19:public ApkInfo(android.graphics.drawable.Drawable,java.lang.String)
+    48:49:public void setmPackageNmae(java.lang.String)
+    58:59:public void setmPackagePath(java.lang.String)
+    68:69:public void setmApplicationInfo(android.content.pm.ApplicationInfo)
+com.example.managerfile.model.ApkPackageinfo
+com.example.managerfile.model.CategoryFileinfo:
+    13:17:public CategoryFileinfo(int,long)
+com.example.managerfile.model.Check:
+    25:28:public Check(java.lang.String)
+    37:38:public void setFilePath(java.lang.String)
+    47:48:public void setPoisition(int)
+    57:58:public void setListTop(int)
+com.example.managerfile.model.Compressinfo
+com.example.managerfile.model.DetailCategoryFileinfo:
+    25:33:public DetailCategoryFileinfo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+    37:37:public int getId()
+    57:57:public java.lang.String getDisplayName()
+    67:67:public java.lang.String getMimeType()
+    122:123:public void setCheck(boolean)
+    137:137:public boolean isCut()
+    142:143:public void setCut(boolean)
+com.example.managerfile.model.Fileinfo:
+    25:34:public Fileinfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)
+    71:72:public void setmName(java.lang.String)
+    81:82:public void setmSize(java.lang.String)
+    91:92:public void setmPath(java.lang.String)
+    101:102:public void setmDate(java.lang.String)
+    111:112:public void setDrectory(boolean)
+    121:122:public void setmLength(java.lang.String)
+    131:132:public void setmLastModifyTime(java.lang.String)
+com.example.managerfile.model.Imageinfo:
+    22:30:public Imageinfo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+    34:34:public int getId()
+    54:54:public java.lang.String getDisplayName()
+    64:64:public java.lang.String getMimeType()
+    119:120:public void setCheck(boolean)
+    129:130:public void setDrectory(boolean)
+    134:134:public boolean isCut()
+    139:140:public void setCut(boolean)
+com.example.managerfile.model.MemoryCountAdapter:
+    17:21:public MemoryCountAdapter(int)
+com.example.managerfile.model.Musicinfo:
+    26:37:public Musicinfo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,long)
+    41:41:public int getId()
+    71:71:public java.lang.String getDisplayName()
+    81:81:public java.lang.String getMimeType()
+    91:91:public java.lang.String getArtist()
+    106:107:public void setCheck(boolean)
+    131:131:public java.lang.String getAlbum()
+    141:141:public long getDuration()
+    166:167:public void setDrectory(boolean)
+    171:171:public boolean isCut()
+    176:177:public void setCut(boolean)
+com.example.managerfile.model.Videoinfo:
+    25:37:public Videoinfo(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long,java.lang.String,long)
+    41:41:public int getId()
+    71:71:public java.lang.String getDisplayName()
+    81:81:public java.lang.String getMimeType()
+    111:111:public java.lang.String getAlbum()
+    121:121:public long getDuration()
+    131:131:public java.lang.String getArtist()
+    166:167:public void setCheck(boolean)
+    176:177:public void setDrectory(boolean)
+    181:181:public boolean isCut()
+    186:187:public void setCut(boolean)
+com.example.managerfile.provider.DBHelper:
+    public static final java.lang.String FILE_TAB
+    public static final java.lang.String FILE_PATH
+    public static final java.lang.String FILE_NAME
+com.example.managerfile.provider.common.CollectFileDao:
+    27:48:public java.util.List find(java.lang.String)
+    89:106:public void update(java.lang.String,java.lang.String)
+com.example.managerfile.service.FTPServerService:
+    public static final int BACKLOG
+    public static final int MAX_SESSIONS
+    public static final java.lang.String WAKE_LOCK_TAG
+    public static final int WAKE_INTERVAL_MS
+    509:511:public void errorShutdown()
+    554:554:public static java.util.List getSessionMonitorContents()
+    558:558:public static java.util.List getServerLogContents()
+    596:597:public static void setPort(int)
+    638:638:public org.swift.ftp.ProxyConnector getProxyConnector()
+    642:642:public static android.content.SharedPreferences getSettings()
+com.example.managerfile.task.ApplicationGettedFromSystemTask:
+    private static final int SYS_AND_USER
+    private static final int ONLY_SYS
+    private static final int ONLY_USER
+    private static final int REFRESH
+com.example.managerfile.task.CompressFilesTask:
+    private java.io.File mFile
+com.example.managerfile.task.CopyListFileTask:
+    private com.example.managerfile.model.Fileinfo sourceFileinfo
+com.example.managerfile.task.CopySingleFileTask:
+    private java.util.List mFileinfos
+com.example.managerfile.task.DeleteAppTask
+com.example.managerfile.task.DeleteFileTask:
+    private java.io.File mFile
+com.example.managerfile.task.DeleteGridViewItemTask:
+    private java.io.File mFile
+    private java.lang.String mPath
+    private com.example.managerfile.model.Fileinfo mFileinfo
+    42:53:public DeleteGridViewItemTask(com.example.managerfile.model.Fileinfo,android.content.Context)
+com.example.managerfile.task.DeleteGridViewItemTask$2
+com.example.managerfile.task.DeleteSearchFileTask:
+    private java.io.File mFile
+    41:53:public DeleteSearchFileTask(com.example.managerfile.model.Fileinfo,android.content.Context)
+com.example.managerfile.task.DeleteSearchFileTask$2
+com.example.managerfile.task.GetFileListTask:
+    private android.widget.TextView mTextView
+    73:90:public GetFileListTask(android.widget.ListView,java.util.List,android.widget.LinearLayout,android.widget.TextView,int,android.widget.FrameLayout,java.util.Stack,android.content.Context)
+    324:327:private java.util.List reflashCollectFile()
+com.example.managerfile.task.GetFileListTask$1
+com.example.managerfile.task.GetMediaImageTask:
+    private android.widget.TextView mTextView
+com.example.managerfile.task.GetMediaMusicTask:
+    private android.widget.TextView mTextView
+com.example.managerfile.task.GetMediaVideoTask:
+    private android.widget.TextView mTextView
+com.example.managerfile.task.ImageLoad4HeadTask:
+    protected static final int PHO_DIP
+com.example.managerfile.task.ImageLoadForApkTask:
+    protected static final int PHO_DIP
+    40:56:public ImageLoadForApkTask(android.content.Context,android.widget.ImageView,java.lang.String,java.lang.String)
+com.example.managerfile.task.RefleshCollectionFileTask:
+    private java.io.File mFile
+    com.example.managerfile.ui.FileManagerActivity mFileManagerActivity
+    private java.io.File currentParent
+    private android.content.SharedPreferences$Editor editor
+    private static final java.lang.String SETTING_SORT_STYLE
+    102:120:public RefleshCollectionFileTask(android.content.Context,android.widget.FrameLayout,android.widget.ListView,android.widget.LinearLayout,android.content.SharedPreferences,java.util.Stack)
+com.example.managerfile.task.RefleshCollectionFileTask$2
+com.example.managerfile.task.RefleshTheListDataTask:
+    private java.io.File mFile
+    private java.lang.String mPath
+    private com.example.managerfile.model.Fileinfo mFileinfo
+    private android.content.SharedPreferences$Editor editor
+    private static final java.lang.String SETTING_SORT_STYLE
+com.example.managerfile.task.SearchFileTask:
+    private android.widget.TextView mTextView
+com.example.managerfile.ui.ApkPackageManagerActivity:
+    private static final int BUFF_SIZE
+    private java.lang.String[] apkmenu
+    private static final int SYS_AND_USER
+    private static final int ONLY_SYS
+    private static final int ONLY_USER
+    private static final int REFRESH
+    private int preUserAppNumber
+    247:297:public int copyFile(java.io.File,java.io.File)
+com.example.managerfile.ui.ApplicationManagerActivity:
+    private static final int BUFF_SIZE
+    private java.util.List apkInfos
+    private java.lang.String[] apkmenu
+    private com.example.managerfile.adapter.AppManagerGridAdapter mAppManagerGridAdapter
+    private android.os.Handler mHandler
+    private int preUserAppNumber
+    129:129:public java.util.ArrayList getmApkInfos()
+    139:141:protected void onDestory()
+com.example.managerfile.ui.CategoryBar:
+    private static final java.lang.String LOG_TAG
+    private static final int ANI_TOTAL_FRAMES
+    private static final int ANI_PERIOD
+com.example.managerfile.ui.ChoiceOprateDialog:
+    private java.io.File mFile
+    com.example.managerfile.ui.ShowSearchResaultActivity mShowSearchResaultActivity
+    33:40:public ChoiceOprateDialog(android.content.Context,java.io.File)
+    57:70:public ChoiceOprateDialog(android.content.Context,com.example.managerfile.model.Fileinfo,com.example.managerfile.ui.ShowSearchResaultActivity)
+com.example.managerfile.ui.CollectionFileOprateDialog:
+    private java.io.File mFile
+    222:228:public void cancleCollectFile(com.example.managerfile.model.Fileinfo)
+com.example.managerfile.ui.DialogMenuActivity
+com.example.managerfile.ui.DialogMenuActivity$1
+com.example.managerfile.ui.FileManagerActivity:
+    private static com.example.managerfile.ui.FileManagerActivity instance
+    private static final java.lang.String SHARED_PREFS_NAME
+    private static final java.lang.String SETTING_HIDE_FILE
+    private static final java.lang.String SETTING_SWITCH_STAUTE
+    private static final java.lang.String SETTING_BACK_PATH
+    private android.widget.LinearLayout mAdLinearLayout
+    698:701:public void ManagerApp()
+    718:720:public void ShowStorageState()
+    778:781:public static com.example.managerfile.ui.FileManagerActivity getInstance()
+    1077:1084:private java.util.List GetChoicedItemsIsCut(java.util.List)
+com.example.managerfile.ui.FileManagerInRemoteActivity:
+    101:101:public boolean onBack()
+    270:277:boolean requiredSettingsDefined()
+    287:292:android.content.SharedPreferences getSettings()
+com.example.managerfile.ui.FileManagerTabActivity$IBackPressedListener
+com.example.managerfile.ui.FileManagerTabGestureDetector:
+    private static final int SWIPE_MIN_DISTANCE
+    private static final int SWIPE_MAX_OFF_PATH
+    private static final int SWIPE_THRESHOLD_VELOCITY
+com.example.managerfile.ui.FileMangerSearchActivity:
+    public static final java.lang.String TAG
+    public static final int MSG_BASE
+    public static final int MSG_LOAD_DATA_COMPLETE
+    public static final int MSG_LOAD_DATA_FAILED
+    public static final java.lang.String SUGGESTION_WORD
+    private static final int TOKEN_DATA_QUERY
+    private static final int DLG_CLEAR_HISTORY
+com.example.managerfile.ui.FileMangerSettingActivity:
+    private java.lang.String iPAddresString
+    private static final java.lang.String SHARED_PREFS_NAME
+    private static final java.lang.String SETTING_BACK_PATH
+    private static final java.lang.String SETTING_HIDE_FILE
+    private static final java.lang.String SETTING_SHOW_IP
+    private static final java.lang.String SETTING_SHOW_PHONE_STROAGE
+    private static final java.lang.String SETTING_LOCATION
+    private static final java.lang.String SETTING_CLEAR_DATA
+    private static final java.lang.String SETTING_SUGGESTION
+    private android.preference.Preference update
+    274:283:private void GetIpAddress()
+    287:293:private java.lang.String getIp()
+com.example.managerfile.ui.SearchChoiceOprateDialog:
+    private java.io.File mFile
+    30:36:public SearchChoiceOprateDialog(android.content.Context,java.io.File)
+    38:52:public SearchChoiceOprateDialog(android.content.Context,com.example.managerfile.model.Fileinfo,com.example.managerfile.ui.FileManagerActivity)
+com.example.managerfile.ui.ShowCategoryFilesActivity:
+    public com.example.managerfile.adapter.ListAdapter mListAdapter
+    124:127:private void setEmptyVideoView()
+    131:134:private void setEmptyImageView()
+com.example.managerfile.ui.ShowSearchResaultActivity:
+    public com.example.managerfile.adapter.ListAdapter mListAdapter
+    public com.example.managerfile.adapter.GridAdapter mGridAdapter
+    public com.example.managerfile.task.RefleshTheListDataTask refleshTheListDataTask
+com.example.managerfile.ui.UserSuggestionActivity:
+    private static final int MSG_BASE
+    private static final int MSG_COMMIT_COMMENT
+    private static final int MSG_COMMIT_COMMENT_SUCCESS
+    private static final int MSG_COMMIT_COMMENT_FAILED
+    private static final int DLG_LOADING
+com.example.managerfile.ui.barcode.AutoFocusCallback:
+    private static final long AUTOFOCUS_INTERVAL_MS
+com.example.managerfile.ui.barcode.CameraConfigurationManager:
+    private static final int TEN_DESIRED_ZOOM
+    private static final int DESIRED_SHARPNESS
+    263:263:public static int getDesiredSharpness()
+com.example.managerfile.ui.barcode.CameraManager:
+    private static final int MIN_FRAME_WIDTH
+    private static final int MIN_FRAME_HEIGHT
+    private static final int MAX_FRAME_WIDTH
+    private static final int MAX_FRAME_HEIGHT
+    private android.hardware.Camera$Parameters mParameters
+    400:400:public android.content.Context getContext()
+com.example.managerfile.ui.barcode.CaptureActivity:
+    private static final float BEEP_VOLUME
+    private android.widget.ImageView cancelScanButton
+    private static final long VIBRATE_DURATION
+com.example.managerfile.ui.barcode.DecodeFormatManager:
+    55:55:private DecodeFormatManager()
+    58:63:static java.util.Vector parseDecodeFormats(android.content.Intent)
+    67:71:static java.util.Vector parseDecodeFormats(android.net.Uri)
+    76:101:private static java.util.Vector parseDecodeFormats(java.lang.Iterable,java.lang.String)
+com.example.managerfile.ui.barcode.DecodeThread:
+    public static final java.lang.String BARCODE_BITMAP
+com.example.managerfile.ui.barcode.InactivityTimer:
+    private static final int INACTIVITY_DELAY_SECONDS
+com.example.managerfile.ui.barcode.Intents
+com.example.managerfile.ui.barcode.Intents$Encode
+com.example.managerfile.ui.barcode.Intents$Scan
+com.example.managerfile.ui.barcode.Intents$SearchBookContents
+com.example.managerfile.ui.barcode.Intents$Share
+com.example.managerfile.ui.barcode.Intents$WifiConnect
+com.example.managerfile.ui.barcode.LightControl:
+    17:17:public boolean getIsOn()
+com.example.managerfile.ui.barcode.PlanarYUVLuminanceSource:
+    106:106:public int getDataWidth()
+    110:110:public int getDataHeight()
+com.example.managerfile.ui.barcode.ViewfinderView:
+    private static final long ANIMATION_DELAY
+    private static final int OPAQUE
+    147:149:public void drawResultBitmap(android.graphics.Bitmap)
+com.example.managerfile.ui.barcode.WebViewActivity$MyWebViewClient:
+    59:60:public boolean shouldOverviewUrlLoading(android.webkit.WebView,java.lang.String)
+com.example.managerfile.ui.base.FileGridView
+com.example.managerfile.ui.base.FileProgressDialog:
+    private android.widget.TextView mTextView
+com.example.managerfile.ui.base.FileSearchProgressDialog:
+    private android.widget.TextView mTextView
+    19:22:public FileSearchProgressDialog(android.content.Context)
+    56:56:public android.widget.TextView getSerachprocessTextView()
+com.example.managerfile.ui.operate.DialogCloseApp
+com.example.managerfile.ui.operate.DialogCloseApp$1
+com.example.managerfile.ui.operate.DialogCloseApp$2
+com.example.managerfile.ui.operate.DialogCompressFiles:
+    private android.widget.TextView tvTitle
+    166:206:public void init1()
+com.example.managerfile.ui.operate.DialogCompressFiles$3
+com.example.managerfile.ui.operate.DialogCompressFiles$4
+com.example.managerfile.ui.operate.DialogCreateNewFileOrDirectory:
+    41:48:public DialogCreateNewFileOrDirectory(android.content.Context,java.io.File)
+com.example.managerfile.ui.operate.DialogDeleteFile:
+    java.io.File mFile
+com.example.managerfile.ui.operate.DialogManageApp:
+    private android.content.pm.PackageInfo mPackageInfo
+    private static final int BUFF_SIZE
+    private static final java.lang.String BACKUPUP_DIR
+    public static final java.lang.String APP_PKG_PREFIX
+    public static final java.lang.String APP_PKG_NAME
+    private static final java.lang.String apkPath
+    private android.content.SharedPreferences$Editor editor
+    private static final java.lang.String SETTING_BACK_PATH
+    52:63:public DialogManageApp(android.content.Context,android.content.pm.PackageInfo,com.example.managerfile.model.ApkInfo,android.content.pm.PackageManager)
+    65:77:public DialogManageApp(android.content.Context,android.content.pm.PackageInfo,com.example.managerfile.model.ApkInfo,android.content.pm.PackageManager,com.example.managerfile.ui.ApkPackageManagerActivity)
+    46:46:static synthetic com.example.managerfile.ui.ApkPackageManagerActivity access$0(com.example.managerfile.ui.operate.DialogManageApp)
+com.example.managerfile.ui.operate.DialogManageApp$APKTimerTask
+com.example.managerfile.ui.operate.DialogMenuActivity
+com.example.managerfile.ui.operate.DialogMenuActivity$1
+com.example.managerfile.ui.operate.DialogRenameFile:
+    50:54:public DialogRenameFile(android.content.Context,java.io.File)
+com.example.managerfile.ui.operate.DialogShowPhoneStroageState
+com.example.managerfile.ui.operate.DialogShowPhoneStroageState$1
+com.example.managerfile.ui.operate.DialogSortFile:
+    private static final java.lang.String SETTING_SORT_STYLE
+com.example.managerfile.util.AllFileUtil:
+    private static synthetic int[] $SWITCH_TABLE$com$example$managerfile$util$AllFileUtil$SortMethod
+    35:35:public AllFileUtil()
+    154:177:public static java.util.List GetDocumentList(android.content.Context)
+    183:207:public static java.util.List GetApkPackageList(android.content.Context)
+    213:236:public static java.util.List GetCompressList(android.content.Context)
+    319:335:public static java.lang.String buildSortOrder(com.example.managerfile.util.AllFileUtil$SortMethod)
+    417:422:private static java.lang.String buildThemeSelection()
+    470:486:public static void notifyFileSystemChanged(java.lang.String,android.content.Context)
+    35:35:static synthetic int[] $SWITCH_TABLE$com$example$managerfile$util$AllFileUtil$SortMethod()
+com.example.managerfile.util.AllFileUtil$SortMethod
+com.example.managerfile.util.CompressFilesUtil
+com.example.managerfile.util.FileUtil:
+    static final int ERROR
+    public static final java.lang.String SHARED_PREFS_NAME
+    public static final java.lang.String SETTING_HIDE_FILE
+    public static final java.lang.String SETTING_SWITCH_STAUTE
+    public static com.example.managerfile.util.FileUtil$FileType mType
+    public static int length
+    public static int number
+    127:147:public static java.lang.String getExtensionWithDot1(java.lang.String)
+    152:162:public static java.lang.String getFileSizes(java.io.File)
+    241:253:public static java.lang.String getFileExtensionFromName(java.lang.String)
+    310:315:public static boolean isGif(java.lang.String)
+    322:354:public static byte[] readFile(java.lang.String)
+    367:374:public static void closeQuietly(java.io.Reader)
+    386:393:public static void closeQuietly(java.nio.channels.Channel)
+    405:412:public static void closeQuietly(java.io.Writer)
+    425:432:public static void closeQuietly(java.io.InputStream)
+    445:452:public static void closeQuietly(java.io.OutputStream)
+    463:475:public static boolean DeleteFolder(java.lang.String)
+    547:551:public static long getAvailableDiskSize()
+    561:564:public static boolean hasEnoughtSpace(long)
+    726:726:public static boolean externalMemoryAvailable()
+    736:740:public static long getAvailableInternalMemorySize()
+    750:754:public static long getTotalInternalMemorySize()
+    764:772:public static long getAvailableExternalMemorySize()
+    783:791:public static long getTotalExternalMemorySize()
+    1082:1098:public static java.lang.String getMIMEType(java.io.File)
+    1103:1109:public static java.lang.String getMimeType(java.lang.String)
+    1120:1136:public static void openFile(java.io.File,android.content.Context)
+    1161:1167:public static java.lang.String ipToString(int,java.lang.String)
+com.example.managerfile.util.FileUtil$FileType
+com.example.managerfile.util.GlobalConsts
+com.example.managerfile.util.ImageUtil:
+    public static final long maxBitmapSize
+    53:78:public static android.graphics.Bitmap decodeByteArray(byte[])
+com.example.managerfile.util.LinuxFileCommand
+com.example.managerfile.util.LoadImage
+com.example.managerfile.util.LoadImage$1
+com.example.managerfile.util.LoadImage$2
+com.example.managerfile.util.LoadImage$ImageCallBack
+com.example.managerfile.util.MemoryUtil:
+    public static final int REMAIN_MEMORY_LEVEL_1
+    11:11:public MemoryUtil()
+    22:22:public static long getJavaAvaiableMemorySize()
+    26:26:public static long getJavaFreeMemorySize()
+    30:33:public static boolean isNeedReclaim()
+com.example.managerfile.util.OpenFile:
+    private java.lang.String filePath
+    19:22:public OpenFile()
+    275:374:public static java.lang.Integer SeekDetailIconForFileThroughFilename(java.lang.String)
+com.example.managerfile.util.StringUtil:
+    9:9:public StringUtil()
+    19:39:public static int getByteCnt(java.lang.String)
+    50:93:public static int getStringCnt(java.lang.String,int)
+    114:123:public static boolean isBlank(java.lang.String)
+    134:141:public static boolean isEquals(java.lang.String,java.lang.String)
+    145:145:public static boolean isNotBlank(java.lang.String)
+    149:149:public static boolean isNotEmpty(java.lang.String)
+    199:227:public static java.lang.String subStringByByte(java.lang.String,int,int)
+    233:234:public static boolean isNumeric(java.lang.String)
+com.example.managerfile.util.TraversalFolderUtil
+com.example.managerfile.util.UncompressFilesUtil
+com.example.managerfile.util.ZipUtil:
+    static final int BUFFER
+    22:22:public ZipUtil()
+    57:67:public static void zipFile(java.io.File,java.io.File)
+    121:157:public static void unZip(java.lang.String,java.lang.String)
+org.apache.tools.bzip2.BZip2Constants:
+    public static final int baseBlockSize
+    public static final int MAX_ALPHA_SIZE
+    public static final int MAX_CODE_LEN
+    public static final int RUNA
+    public static final int RUNB
+    public static final int N_GROUPS
+    public static final int G_SIZE
+    public static final int N_ITERS
+    public static final int MAX_SELECTORS
+    public static final int NUM_OVERSHOOT_BYTES
+org.apache.tools.bzip2.BlockSort:
+    private static final int QSORT_STACK_SIZE
+    private static final int FALLBACK_QSORT_STACK_SIZE
+    private static final int STACK_SIZE
+    private static final int FALLBACK_QSORT_SMALL_THRESH
+    private static final int SMALL_THRESH
+    private static final int DEPTH_THRESH
+    private static final int WORK_FACTOR
+    private static final int SETMASK
+    private static final int CLEARMASK
+org.apache.tools.bzip2.CBZip2InputStream:
+    private static final int EOF
+    private static final int START_BLOCK_STATE
+    private static final int RAND_PART_A_STATE
+    private static final int RAND_PART_B_STATE
+    private static final int RAND_PART_C_STATE
+    private static final int NO_RAND_PART_A_STATE
+    private static final int NO_RAND_PART_B_STATE
+    private static final int NO_RAND_PART_C_STATE
+org.apache.tools.bzip2.CBZip2OutputStream:
+    public static final int MIN_BLOCKSIZE
+    public static final int MAX_BLOCKSIZE
+    protected static final int SETMASK
+    protected static final int CLEARMASK
+    protected static final int GREATER_ICOST
+    protected static final int LESSER_ICOST
+    protected static final int SMALL_THRESH
+    protected static final int DEPTH_THRESH
+    protected static final int WORK_FACTOR
+    protected static final int QSORT_STACK_SIZE
+    225:373:protected static void hbMakeCodeLengths(char[],int[],int,int)
+    573:573:public static int chooseBlockSize(long)
+    859:859:public final int getBlockSize()
+org.apache.tools.bzip2.CRC:
+    113:113:int getGlobalCRC()
+    117:118:void setGlobalCRC(int)
+org.apache.tools.mail.MailMessage:
+    public static final java.lang.String DEFAULT_HOST
+    public static final int DEFAULT_PORT
+    private static final int OK_READY
+    private static final int OK_HELO
+    private static final int OK_FROM
+    private static final int OK_RCPT_1
+    private static final int OK_RCPT_2
+    private static final int OK_DATA
+    private static final int OK_DOT
+    private static final int OK_QUIT
+    156:157:public MailMessage(java.lang.String)
+    185:186:public void setPort(int)
+org.apache.tools.tar.TarBuffer:
+    public static final int DEFAULT_RCDSIZE
+    public static final int DEFAULT_BLKSIZE
+    68:69:public TarBuffer(java.io.InputStream)
+    77:78:public TarBuffer(java.io.InputStream,int)
+    95:96:public TarBuffer(java.io.OutputStream)
+    104:105:public TarBuffer(java.io.OutputStream,int)
+    143:143:public int getBlockSize()
+    160:161:public void setDebug(boolean)
+    185:199:public void skipRecord()
+    310:310:public int getCurrentBlockNum()
+    320:320:public int getCurrentRecordNum()
+org.apache.tools.tar.TarConstants
+org.apache.tools.tar.TarEntry:
+    public static final int MAX_NAMELEN
+    public static final int DEFAULT_DIR_MODE
+    public static final int DEFAULT_FILE_MODE
+    public static final int MILLIS_PER_SECOND
+    260:261:public TarEntry(java.io.File)
+    271:298:public TarEntry(java.io.File,java.lang.String)
+    308:310:public TarEntry(byte[])
+    371:371:public boolean isDescendent(org.apache.tools.tar.TarEntry)
+    498:500:public void setIds(int,int)
+    509:511:public void setNames(java.lang.String,java.lang.String)
+    529:530:public void setModTime(java.util.Date)
+    547:547:public java.io.File getFile()
+    643:643:public long getRealSize()
+    691:691:public boolean isGlobalPaxHeader()
+    719:725:public boolean isFile()
+    746:746:public boolean isCharacterDevice()
+    753:753:public boolean isBlockDevice()
+    760:760:public boolean isFIFO()
+    770:781:public org.apache.tools.tar.TarEntry[] getDirectoryEntries()
+    793:802:public void writeEntryHeader(byte[])
+    878:887:public void parseTarHeader(byte[])
+org.apache.tools.tar.TarInputStream:
+    private static final int SMALL_BUFFER_SIZE
+    private static final int BUFFER_SIZE
+    private static final int LARGE_BUFFER_SIZE
+    private static final int BYTE_MASK
+    88:89:public TarInputStream(java.io.InputStream,java.lang.String)
+    97:98:public TarInputStream(java.io.InputStream,int)
+    107:108:public TarInputStream(java.io.InputStream,int,java.lang.String)
+    144:146:public void setDebug(boolean)
+    163:163:public int getRecordSize()
+    634:645:public void copyEntryContents(java.io.OutputStream)
+    653:653:public boolean canReadEntryData(org.apache.tools.tar.TarEntry)
+org.apache.tools.tar.TarOutputStream:
+    public static final int LONGFILE_ERROR
+    public static final int LONGFILE_TRUNCATE
+    public static final int LONGFILE_GNU
+    public static final int LONGFILE_POSIX
+    public static final int BIGNUMBER_ERROR
+    public static final int BIGNUMBER_STAR
+    public static final int BIGNUMBER_POSIX
+    108:109:public TarOutputStream(java.io.OutputStream,java.lang.String)
+    117:118:public TarOutputStream(java.io.OutputStream,int)
+    127:128:public TarOutputStream(java.io.OutputStream,int,java.lang.String)
+    179:180:public void setBigNumberMode(int)
+    186:187:public void setAddPaxHeadersForNonAsciiNames(boolean)
+    204:205:public void setBufferDebug(boolean)
+    255:255:public int getRecordSize()
+org.apache.tools.tar.TarUtils:
+    private static final int BYTE_MASK
+    78:79:private TarUtils()
+    413:419:public static int formatOctalBytes(long,byte[],int,int)
+org.apache.tools.zip.AbstractUnicodeExtraField:
+    72:73:protected AbstractUnicodeExtraField(java.lang.String,byte[])
+    100:102:public void setNameCRC32(long)
+    120:128:public void setUnicodeName(byte[])
+org.apache.tools.zip.AsiExtraField:
+    private static final int WORD
+    183:184:public void setUserId(int)
+    201:202:public void setGroupId(int)
+    222:224:public void setLinkedFile(java.lang.String)
+org.apache.tools.zip.ExtraFieldUtils:
+    private static final int WORD
+    32:269:public ExtraFieldUtils()
+    103:103:public static org.apache.tools.zip.ZipExtraField[] parse(byte[])
+    118:118:public static org.apache.tools.zip.ZipExtraField[] parse(byte[],boolean)
+org.apache.tools.zip.ExtraFieldUtils$UnparseableExtraField:
+    public static final int THROW_KEY
+    public static final int SKIP_KEY
+    public static final int READ_KEY
+org.apache.tools.zip.GeneralPurposeBit:
+    private static final int ENCRYPTION_FLAG
+    private static final int DATA_DESCRIPTOR_FLAG
+    private static final int STRONG_ENCRYPTION_FLAG
+    public static final int UFT8_NAMES_FLAG
+    79:79:public boolean usesDataDescriptor()
+    108:108:public boolean usesStrongEncryption()
+org.apache.tools.zip.UnicodeCommentExtraField:
+    62:63:public UnicodeCommentExtraField(java.lang.String,byte[])
+org.apache.tools.zip.UnicodePathExtraField:
+    60:61:public UnicodePathExtraField(java.lang.String,byte[])
+org.apache.tools.zip.UnixStat
+org.apache.tools.zip.UnsupportedZipFeatureException:
+    private static final long serialVersionUID
+    51:51:public org.apache.tools.zip.UnsupportedZipFeatureException$Feature getFeature()
+    58:58:public org.apache.tools.zip.ZipEntry getEntry()
+org.apache.tools.zip.Zip64ExtendedInformationExtraField:
+    private static final java.lang.String LFH_MUST_HAVE_BOTH_SIZES_MSG
+    81:82:public Zip64ExtendedInformationExtraField(org.apache.tools.zip.ZipEightByteInteger,org.apache.tools.zip.ZipEightByteInteger)
+    95:100:public Zip64ExtendedInformationExtraField(org.apache.tools.zip.ZipEightByteInteger,org.apache.tools.zip.ZipEightByteInteger,org.apache.tools.zip.ZipEightByteInteger,org.apache.tools.zip.ZipLong)
+    300:300:public org.apache.tools.zip.ZipLong getDiskStartNumber()
+    307:308:public void setDiskStartNumber(org.apache.tools.zip.ZipLong)
+org.apache.tools.zip.Zip64RequiredException:
+    private static final long serialVersionUID
+    static final java.lang.String ARCHIVE_TOO_BIG_MESSAGE
+    static final java.lang.String TOO_MANY_ENTRIES_MESSAGE
+org.apache.tools.zip.ZipConstants
+org.apache.tools.zip.ZipEightByteInteger:
+    private static final int BYTE_1
+    private static final int BYTE_1_MASK
+    private static final int BYTE_1_SHIFT
+    private static final int BYTE_2
+    private static final int BYTE_2_MASK
+    private static final int BYTE_2_SHIFT
+    private static final int BYTE_3
+    private static final long BYTE_3_MASK
+    private static final int BYTE_3_SHIFT
+    private static final int BYTE_4
+    private static final long BYTE_4_MASK
+    private static final int BYTE_4_SHIFT
+    private static final int BYTE_5
+    private static final long BYTE_5_MASK
+    private static final int BYTE_5_SHIFT
+    private static final int BYTE_6
+    private static final long BYTE_6_MASK
+    private static final int BYTE_6_SHIFT
+    private static final int BYTE_7
+    private static final long BYTE_7_MASK
+    private static final int BYTE_7_SHIFT
+    private static final int LEFTMOST_BIT_SHIFT
+    private static final byte LEFTMOST_BIT
+    86:87:public ZipEightByteInteger(byte[])
+    200:200:public static java.math.BigInteger getValue(byte[])
+org.apache.tools.zip.ZipEncodingHelper:
+    static final java.lang.String UTF8
+    private static final java.lang.String UTF_DASH_8
+    31:38:public ZipEncodingHelper()
+org.apache.tools.zip.ZipEntry:
+    public static final int PLATFORM_UNIX
+    public static final int PLATFORM_FAT
+    private static final int SHORT_MASK
+    private static final int SHORT_SHIFT
+    109:122:public ZipEntry(java.util.zip.ZipEntry)
+    135:139:public ZipEntry(org.apache.tools.zip.ZipEntry)
+    158:165:public ZipEntry(java.io.File,java.lang.String)
+    315:315:public org.apache.tools.zip.ZipExtraField[] getExtraFields()
+    403:408:public void removeUnparseableExtraFieldData()
+    428:428:public org.apache.tools.zip.UnparseableExtraFieldData getUnparseableExtraFieldData()
+    510:511:public void setComprSize(long)
+    589:594:public byte[] getRawName()
+    667:667:public java.util.Date getLastModifiedDate()
+org.apache.tools.zip.ZipFile:
+    private static final int HASH_SIZE
+    static final int NIBLET_MASK
+    static final int BYTE_SHIFT
+    private static final int POS_0
+    private static final int POS_1
+    private static final int POS_2
+    private static final int POS_3
+    private static final int CFH_LEN
+    private static final int MIN_EOCD_SIZE
+    private static final int MAX_EOCD_SIZE
+    private static final int CFD_LOCATOR_OFFSET
+    private static final int ZIP64_EOCDL_LENGTH
+    private static final int ZIP64_EOCDL_LOCATOR_OFFSET
+    private static final int ZIP64_EOCD_CFD_LOCATOR_OFFSET
+    private static final long LFH_OFFSET_FOR_FILENAME_LENGTH
+    162:163:public ZipFile(java.lang.String)
+    236:236:public java.lang.String getEncoding()
+    290:292:public java.util.Enumeration getEntriesInPhysicalOrder()
+    322:323:public java.lang.Iterable getEntries(java.lang.String)
+    337:342:public java.lang.Iterable getEntriesInPhysicalOrder(java.lang.String)
+    352:352:public boolean canReadEntryData(org.apache.tools.zip.ZipEntry)
+org.apache.tools.zip.ZipLong:
+    private static final int BYTE_1
+    private static final int BYTE_1_MASK
+    private static final int BYTE_1_SHIFT
+    private static final int BYTE_2
+    private static final int BYTE_2_MASK
+    private static final int BYTE_2_SHIFT
+    private static final int BYTE_3
+    private static final long BYTE_3_MASK
+    private static final int BYTE_3_SHIFT
+org.apache.tools.zip.ZipOutputStream:
+    private static final int BUFFER_SIZE
+    private static final int DEFLATER_BLOCK_SIZE
+    public static final int DEFLATED
+    public static final int DEFAULT_COMPRESSION
+    public static final int STORED
+    public static final int EFS_FLAG
+    366:366:public java.lang.String getEncoding()
+    785:785:public boolean canWriteEntryData(org.apache.tools.zip.ZipEntry)
+    1255:1255:protected static org.apache.tools.zip.ZipLong toDosTime(java.util.Date)
+    1268:1268:protected static byte[] toDosTime(long)
+    1282:1289:protected byte[] getBytes(java.lang.String)
+    1400:1400:protected static long adjustToLong(int)
+org.apache.tools.zip.ZipShort:
+    private static final int BYTE_1_MASK
+    private static final int BYTE_1_SHIFT
+    49:50:public ZipShort(byte[])
+org.apache.tools.zip.ZipUtil:
+    29:29:public ZipUtil()
+    41:41:public static org.apache.tools.zip.ZipLong toDosTime(java.util.Date)
+    79:82:public static long adjustToLong(int)
+    93:94:public static java.util.Date fromDosTime(org.apache.tools.zip.ZipLong)
+    191:191:static boolean canHandleEntryData(org.apache.tools.zip.ZipEntry)
+org.swift.ftp.Account:
+    26:26:public java.lang.String getUsername()
+org.swift.ftp.CmdAbstractStore:
+    public static final java.lang.String message
+org.swift.ftp.CmdCDUP:
+    protected java.lang.String input
+org.swift.ftp.CmdFEAT:
+    public static final java.lang.String message
+org.swift.ftp.CmdLIST:
+    public static final long MS_IN_SIX_MONTHS
+org.swift.ftp.CmdMap
+org.swift.ftp.CmdNLST:
+    public static final long MS_IN_SIX_MONTHS
+org.swift.ftp.CmdNOOP:
+    public static final java.lang.String message
+org.swift.ftp.CmdOPTS:
+    public static final java.lang.String message
+org.swift.ftp.CmdQUIT:
+    public static final java.lang.String message
+org.swift.ftp.CmdRMD:
+    public static final java.lang.String message
+org.swift.ftp.CmdSYST:
+    public static final java.lang.String response
+org.swift.ftp.CmdTemplate
+org.swift.ftp.DataSocketFactory:
+    public abstract java.net.InetAddress getPasvIp()
+org.swift.ftp.Defaults:
+    public static final int tcpConnectionBacklog
+    public static final boolean acceptWifi
+    public static final boolean acceptNet
+    public static final boolean stayAwake
+    public static final int REMOTE_PROXY_PORT
+    public static final java.lang.String STRING_ENCODING
+    public static final int SO_TIMEOUT_MS
+    public static final java.lang.String SESSION_ENCODING
+    public static final boolean release
+    public static final boolean do_mediascanner_notify
+    27:27:public Defaults()
+    75:75:public static int getPortNumber()
+    79:80:public static void setPortNumber(int)
+    87:88:public static void setSettingsName(java.lang.String)
+    95:96:public static void setSettingsMode(int)
+    99:100:public static void setServerLogScrollBack(int)
+    109:110:public static void setUiLogLevel(int)
+    117:118:public static void setInputBufferSize(int)
+    125:126:public static void setDataChunkSize(int)
+    129:129:public static int getSessionMonitorScrollBack()
+    135:136:public static void setSessionMonitorScrollBack(int)
+    143:144:public static void setLogScrollBack(int)
+    151:152:public static void setConsoleLogLevel(int)
+org.swift.ftp.Globals:
+    26:26:public Globals()
+    57:57:public static java.lang.String getLastError()
+    75:75:public static java.lang.String getUsername()
+    79:80:public static void setUsername(java.lang.String)
+org.swift.ftp.NormalDataSocketFactory:
+    152:157:public int getPortNumber()
+    164:164:public java.net.InetAddress getPasvIp()
+org.swift.ftp.ProxyConnector:
+    public static final int IN_BUF_SIZE
+    public static final java.lang.String ENCODING
+    public static final int RESPONSE_WAIT_MS
+    public static final int QUEUE_WAIT_MS
+    public static final long UPDATE_USAGE_BYTES
+    public static final java.lang.String PREFERRED_SERVER
+    public static final int CONNECT_TIMEOUT
+    static final java.lang.String USAGE_PREFS_NAME
+    447:533:private org.json.JSONObject sendCmdSocketRequest(org.json.JSONObject)
+    665:670:public java.net.InetAddress getProxyIp()
+    735:735:public long getProxyUsage()
+    748:748:public org.swift.ftp.ProxyConnector$State getProxyState()
+    773:773:public static java.lang.String stateToString(org.swift.ftp.ProxyConnector$State)
+    780:786:public java.lang.String getURL()
+    793:793:public java.lang.String getProxyMessage()
+org.swift.ftp.ProxyDataSocketFactory:
+    72:76:public java.net.InetAddress getPasvIp()
+org.swift.ftp.ProxyDataSocketInfo:
+    33:34:public void setSocket(java.net.Socket)
+    46:47:public void setRemotePublicPort(int)
+org.swift.ftp.QuotaStats
+org.swift.ftp.SessionThread:
+    247:247:protected java.net.InetAddress getLocalAddress()
+    284:289:public static boolean compareLen(byte[],byte[],int)
+    329:329:protected java.net.Socket getSocket()
+    333:333:public org.swift.ftp.Account getAccount()
+    337:338:public void setAccount(org.swift.ftp.Account)
+    341:341:public boolean isPasvMode()
+    357:357:public static java.nio.ByteBuffer stringToBB(java.lang.String)
+    415:415:public java.net.Socket getDataSocket()
+    419:420:public void setDataSocket(java.net.Socket)
+    435:435:public java.lang.String getEncoding()
+org.swift.ftp.Settings
+org.swift.ftp.UiUpdater:
+    27:27:public UiUpdater()
+org.swift.ftp.Util:
+    67:68:public static byte byteOfInt(int,int)
+    74:81:public static java.lang.String ipToString(int,java.lang.String)
+    87:96:public static java.net.InetAddress intToInet(int)
+    102:108:public static java.lang.String ipToString(int)
+    190:194:public static void sleepIgnoreInterupt(long)

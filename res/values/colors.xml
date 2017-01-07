@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 登录界面及新鲜事界面字体颜色 -->
+    <color name="color_top_bar_title">#ff000000</color>
+    <color name="color_top_bar_title_shadow">#ff0a4b61</color>
+    <color name="color_regist_button_text">#ff08485a</color>
+    <color name="color_regist_button_text_shadow">#ff73c0d5</color>
+    <color name="color_login_button_text">#ff486e0b</color>
+    <color name="color_login_button_text_shadow">#ffd5e5af</color>
+    <color name="color_login_company_text">#ffa0958b</color>
+    <color name="color_status_link">#ff0085b0</color>
+    <color name="whole_background_color">#fff4f4f4</color>
+    <color name="activity_bg">#efeff4</color>
+    <color name="whole_popwindows_background_color">#b0000000</color>
+    <color name="divider_color">#ffc3c3c3</color>
+    <color name="recommend_download">#ffe9612f</color>
+    <color name="list_item_pressed_color">#e5e5e5</color>
+    <color name="list_item_bg">#fff4f4f4</color>
+    <color name="color_login_user_pwd_hint_text">#ffb4b4b4</color>
+    <color name="game_list_item_pressed_color">#e5e5e5</color>
+    <color name="game_list_item_bg">#fff4f4f4</color>
+    <color name="tab_bg_color">#ffe6e6e6</color>
+    <color name="color_tab_sns_tabwidget_text_selected">#ffffffff</color>
+    <color name="color_tab_sns_tabwidget_text_unselected">#ff000000</color>
+    <color name="color_tab_main_tabwidget_text_selected">#ff08404f</color>
+    <color name="color_tab_main_tabwidget_text_unselected">#ffc3e1ea</color>
+    <color name="color_tab_main_tabwidget_text_selected_shadow">#ffaed6e3</color>
+    <color name="color_tab_main_tabwidget_text_unselected_shadow">#ff143741</color>
+    <color name="color_about_me_num_text">#ff23515f</color>
+    <color name="color_about_me_label_text">#ff23515f</color>
+    <color name="color_about_me_screen_name_text">#ff151515</color>
+    <color name="color_about_me_gender_location_text">#ff151515</color>
+    <color name="color_login_tvOAuthIntro_text">#a69b90</color>
+    <color name="color_login_btnAuthorize_text_shadow">#1b3034</color>
+    <color name="color_login_chkFollowOffical_text">#a69b90</color>
+    <color name="back_btn_font">#a7a7a7</color>
+    <!-- 登录界面及新鲜事界面字体颜色结束 -->
+
+
+    <!-- 发布等待框 -->
+    <color name="color_publish_title_shadow_color">#ff606066</color>
+    <color name="color_publish_btn_shadow_color">#ff132930</color>
+    <color name="publish_negative">#ffffffff</color>
+    <color name="publish_negative_disabled">#80000000</color>
+    <color name="publish_positive">#ffffffff</color>
+    <color name="publish_positive_disabled">#80ffffff</color>
+    <!-- 发布等待框 -->
+    <!-- <drawable name="window_background">#ffe6e6e6</drawable> -->
+    <!-- 公共界面 -->
+    <color name="color_list_selected">#ff37a0bf</color>
+
+    <!-- 公共界面结束 -->
+
+
+    <!-- barcode -->
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="center_tab_text_color">#ff343434</color>
+
+    <drawable name="window_background">#ffe4e4e4</drawable>
+
+    <color name="remote_disconnect_text">#FF901821</color>
+    <color name="remote_connect_text">#FFe78018</color>
+    <color name="white">#ffffff</color>
+    <color name="list_bg">#ffe4e4e4</color>
+    <color name="black">#ff000000</color>
+    <color name="file_count_text_font_color">#696969</color>
+    <color name="another_back">#ff696969</color>
+    <color name="blue">#ff0079ff</color>
+    <color name="light_blue">#ff10bcfd</color>
+    <color name="green">#bbeb68</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucence">#aa000000</color>
+    <color name="dialog_background">#f4f4f4</color>
+    <color name="dialog_divider">#d6d6d6</color>
+    <color name="red">#ffff0000</color>
+    <color name="background">#fff0f4f7</color>
+    <color name="background_content">#ffedf4fa</color>
+    <color name="content">#ff414039</color>
+    <color name="content_half_alpha">#80000000</color>
+    <color name="highlight">#ff242320</color>
+    <color name="highlight_bg">#ffb8d8f8</color>
+    <color name="link">#ff2078c8</color>
+    <color name="link_bg">#ffb8d8f8</color>
+    <color name="emphasize">#ff838383</color>
+    <color name="remind">#fff0a820</color>
+    <color name="quote">#ff82807c</color>
+    <color name="remark">#ffb0b0b1</color>
+    <color name="header_title">#ffffffff</color>
+    <color name="header_title_disabled">#80ffffff</color>
+    <color name="header_action">#ffffffff</color>
+    <color name="header_action_disabled">#80ffffff</color>
+    <color name="action_negative">#ff000000</color>
+    <color name="action_negative_disabled">#80000000</color>
+    <color name="action_positive">#ffffffff</color>
+    <color name="action_positive_disabled">#80ffffff</color>
+    <color name="personal_count">#ff297acc</color>
+    <color name="list_item_normal">#ffedf4fa</color>
+    <color name="list_item_highline">#ffedf4fa</color>
+    <color name="list_item_focused">#ffdbe8f3</color>
+    <color name="list_item_pressed">#ffdbe8f3</color>
+    <color name="list_item_disabled">#ffdbe8f3</color>
+    <color name="list_item_more">#ffe5eaee</color>
+    <color name="list_item_app_name">#ff6f7375</color>
+    <color name="list_status_time_readed">#ff5986d3</color>
+    <color name="list_status_time_unreaded">#fff0a820</color>
+    <color name="home_blog_time_readed">#ff838383</color>
+    <color name="home_blog_time_unreaded">#ff8C69</color>
+    <color name="comment_time">#ff808080</color>
+    <color name="comment_count">#ff808080</color>
+    <color name="personal_header_normal">#fffff5d9</color>
+    <color name="personal_header_pressed">#fff3e2ae</color>
+    <color name="status_capability">#ffffffff</color>
+    <color name="widget_dialog_list_choose_item">#fff1e0d1</color>
+    <color name="widget_dialog_tweet_progress_screen_name">#ff333333</color>
+    <color name="widget_dialog_tweet_progress_sp_name">#ff47a4c3</color>
+
+    <!-- 个人信息界面 -->
+    <color name="frame_item_normal">#ffffffff</color>
+    <color name="frame_item_focused">#ffdadee6</color>
+    <color name="frame_item_pressed">#ffdadee6</color>
+    <color name="frame_item_disabled">#ffffffff</color>
+    <!-- 个人信息界面结束 -->
+    <color name="transparent_black">#60000000</color>
+    <color name="text_color_recommend_item">#ff000000</color>
+    <color name="search_user_hint_text_color">#ffb4b4b4</color>
+    <color name="album_slide_show_button_text_color">#ffffffff</color>
+    <color name="unread_message_font_color">#de6e00</color>
+    <color name="subview_time_value_color">#ff00749a</color>
+    <!-- For preference -->
+    <color name="preference_category_text_color_normal">#ff95938e</color>
+    <color name="preference_title_text_color_normal">#ff3e3e3e</color>
+    <color name="preference_summary_text_color_normal">#ff747474</color>
+    <color name="preference_category_text_color_pressed">#ffffffff</color>
+    <color name="preference_title_text_color_pressed">#ffffffff</color>
+    <color name="preference_summary_text_color_pressed">#ffffffff</color>
+    <color name="preference_text_color_disabled">#ffb8b8b8</color>
+    <color name="bar_color">#556b2f</color>
+    <color name="reply_receipt_selected">#aa0000</color>
+    <color name="paste_bg">#ffe5e8eb</color>
+    <color name="paste_grid_view">#ffeeeeee</color>
+
+    <drawable name="windowsBackground">#ffffffff</drawable>
+
+</resources>

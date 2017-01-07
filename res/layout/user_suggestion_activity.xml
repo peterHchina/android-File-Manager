@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/include_micro_tecent_header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/suggestion_title"
+            android:layout_marginTop="@dimen/suggestion_title_top"
+            android:text="@string/your_suggestion" />
+
+        <EditText
+            android:id="@+id/suggestion_text"
+            style="@style/suggestion_input_text"
+            android:layout_height="@dimen/suggestion_text_height"
+            android:hint="@string/suggestion_hint"
+            android:maxLength="240" />
+
+        <TextView
+            style="@style/suggestion_title"
+            android:layout_marginTop="@dimen/contact_title_top"
+            android:text="@string/suggestion_contact" />
+
+        <EditText
+            android:id="@+id/contact_text"
+            style="@style/suggestion_input_text"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_hint"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/commit_btn"
+            style="@style/suggestion_commit" />
+    </LinearLayout>
+
+</LinearLayout>

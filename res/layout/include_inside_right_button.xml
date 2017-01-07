@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnBack"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/top_bar_margin_side" >
+
+    <ImageView
+        android:id="@+id/btnBack_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/selector_btn_action_back" />
+
+    <TextView
+        android:id="@+id/btnBack_text"
+        android:textColor="@color/bar_left_button_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_top_bar_left_button_text_size"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:singleLine="true" />
+
+</LinearLayout>

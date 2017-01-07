@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="recommend_list_5dip">5.0dip</dimen>
+    <dimen name="recommend_list_90dip">90.0dip</dimen>
+    <dimen name="recommend_list_10dip">10.0dip</dimen>
+    <dimen name="recommend_list_40dip">40.0dip</dimen>
+    <dimen name="popmenu_width">165.0dip</dimen>
+    <dimen name="popmenu_xoff">280.0dip</dimen>
+    <dimen name="popmenu_yoff">93.0dip</dimen>
+    <dimen name="lunbo_fontsize">14.0dip</dimen>
+    <dimen name="mag_conver_size">130.0dip</dimen>
+    <dimen name="dialog_left_margin">10.0dip</dimen>
+    <dimen name="dialog_top_margin">30.0dip</dimen>
+    <dimen name="dialog_right_margin">10.0dip</dimen>
+    <dimen name="dialog_bottom_margin">10.0dip</dimen>
+    <dimen name="window_title_size">44dip</dimen>
+    <dimen name="top_bar_title_size">18sp</dimen>
+    <dimen name="dialog_btn_close_right_margin">10.0dip</dimen>
+    <dimen name="dialog_btn_close_top_margin">10.0dip</dimen>
+    <dimen name="dialog_title_logo_left_margin">5.0dip</dimen>
+    <dimen name="dialog_title_height">30.0dip</dimen>
+    <!-- yangchun@2012-3-6@Add for top recommends -->
+    <dimen name="top_recommends_grid_vspace">30px</dimen>
+    <dimen name="top_recommends_grid_hspace">-5px</dimen>
+    <dimen name="top_recommends_item_text_size">12sp</dimen>
+    <dimen name="top_recommends_search_button_text_size">12sp</dimen>
+    <dimen name="top_recommends_pending_left_and_right">25px</dimen>
+    <dimen name="list_direct_message_time">14.0sp</dimen>
+    <dimen name="list_message_time">12sp</dimen>
+    <dimen name="top_recommends_search_erea_pending_top">26px</dimen>
+    <dimen name="top_recommends_search_input_height">54px</dimen>
+    <dimen name="top_recommends_search_input_erea_padding_bottom">16px</dimen>
+    <dimen name="top_recommends_search_button_padding_left">16px</dimen>
+    <dimen name="top_recommends_search_button_padding_right">16px</dimen>
+    <dimen name="top_recommends_grid_item_text_margin_top">2px</dimen>
+    <dimen name="top_recommends_scroll_layout_margin_top">33px</dimen>
+    <dimen name="top_recommends_indicator_layout_margin_bottom">15px</dimen>
+    <dimen name="album_viewer_count_text_size">22px</dimen>
+    <dimen name="album_viewer_date_and_desc_text_size">24px</dimen>
+    <dimen name="icon_file_width">54dp</dimen>
+    <dimen name="icon_file_width_grid">50dp</dimen>
+    <!-- For preference -->
+    <dimen name="preference_title_height">47dp</dimen>
+    <dimen name="preference_title_height1">46dp</dimen>
+    <dimen name="preference_category_text_size">14dp</dimen>
+    <dimen name="preference_title_text_size">18dp</dimen>
+    <dimen name="preference_summary_text_size">14dp</dimen>
+    <dimen name="preference_category_height">60px</dimen>
+    <dimen name="logout_button_width">250px</dimen>
+    <dimen name="logout_to_top">15px</dimen>
+    <dimen name="logout_button_height">80px</dimen>
+    <dimen name="preference_list_padding_left_and_right">14px</dimen>
+    <dimen name="preference_list_padding_top">56px</dimen>
+    <dimen name="preference_account_logo_size">50px</dimen>
+    <!-- yangchun@2012-3-6@end -->
+    <dimen name="photo_view_max_desctext_height">240dip</dimen>
+    <dimen name="update_head_hint_text_size">10sp</dimen>
+
+    <!-- 登录界面及新鲜事界面关于我界面尺寸 -->
+    <dimen name="dimen_top_bar_height">160px</dimen>
+    <dimen name="dimen_top_bar_title_text_size">18sp</dimen>
+    <dimen name="dimen_top_bar_title_text_size2">15px</dimen>
+    <dimen name="dimen_top_bar_left_button_text_size">15sp</dimen>
+    <dimen name="dimen_tabwidget_margin_top">20px</dimen>
+    <dimen name="dimen_login_edittext_margin_top">82dip</dimen>
+    <dimen name="dimen_login_image_margin_top">166dip</dimen>
+    <dimen name="dimen_space_between_edittext">136dip</dimen>
+    <dimen name="dimen_attention_company_margin_top">38px</dimen>
+    <dimen name="dimen_login_edittext_length">628px</dimen>
+    <dimen name="dimen_login_edittext_length_eidth">40dip</dimen>
+    <dimen name="dimen_regist_button_text_size">20px</dimen>
+    <dimen name="dimen_login_button_text_size">36px</dimen>
+    <dimen name="dimen_login_button_width">760px</dimen>
+    <dimen name="contact_tab_text_width">380px</dimen>
+    <dimen name="dimen_login_button_height">40dip</dimen>
+    <dimen name="login_layout_margin_top">220dip</dimen>
+    <dimen name="dimen_login_company_text_size">18px</dimen>
+    <dimen name="dimen_login_button_margin_top">0px</dimen>
+    <dimen name="dimen_regist_button_margin_top">46px</dimen>
+    <dimen name="dimen_regist_button_margin_right">2px</dimen>
+    <dimen name="about_me_num_margin_top">-36px</dimen>
+    <dimen name="about_me_num_padding_bottom">4px</dimen>
+    <dimen name="dimen_about_me_num_text_size">30px</dimen>
+    <dimen name="dimen_about_me_label_text_size">36px</dimen>
+    <dimen name="top_bar_margin_side">10dp</dimen>
+    <dimen name="log_text_to_font">17dip</dimen>
+    <dimen name="dimen_login_user_pwd_text_size">48px</dimen>
+    <dimen name="list_status_screen_name">42px</dimen>
+    <dimen name="list_status_text">38px</dimen>
+    <dimen name="list_status_time">32px</dimen>
+    <dimen name="dimen_tab_main_height">130px</dimen>
+    <dimen name="dimen_tab_main_tabwidget_text_size">30px</dimen>
+    <dimen name="dimen_tab_main_tabcontent_margin_bottom">157px</dimen>
+    <dimen name="dimen_tab_sns_tabcontent_margin_top">-6px</dimen>
+    <dimen name="dimen_response_margin_left">12px</dimen>
+    <dimen name="dimen_response_margin_right">12px</dimen>
+    <dimen name="drawable_padding">4px</dimen>
+    <dimen name="dimen_about_me_margin_left_right">18px</dimen>
+    <dimen name="dimen_about_me_line_margin_top">16px</dimen>
+    <dimen name="profile_screen_name">42px</dimen>
+    <dimen name="profile_impress">36px</dimen>
+    <dimen name="dimen_between_name_gender">16px</dimen>
+    <dimen name="dimen_login_tvOAuthIntro_margin_top">54px</dimen>
+    <dimen name="dimen_login_tvOAuthIntro_lineSpacingExtra">18px</dimen>
+    <dimen name="dimen_login_OAuthIntro_text_size">18px</dimen>
+    <dimen name="dimen_login_OAuthIntro_marginLeft">32px</dimen>
+    <dimen name="dimen_login_OAuthIntro_marginRight">32px</dimen>
+    <dimen name="dimen_login_llAuthorizeForm_margin_top">120px</dimen>
+    <dimen name="dimen_login_btnAuthorize_marginLeft">94px</dimen>
+    <dimen name="dimen_login_btnAuthorize_marginRight">94px</dimen>
+    <dimen name="dimen_login_chkFollowOffical_margin_top">58px</dimen>
+    <dimen name="dimen_login_chkFollowOffical_marginLeft">170px</dimen>
+    <!-- 登录界面及新鲜事界面关于我界面尺寸结束 -->
+
+
+    <!-- 人人详情界面 -->
+    <dimen name="toolbar_height">45dp</dimen>
+    <dimen name="tool_bar_padding_bottom">2px</dimen>
+    <dimen name="comments_list_margin_bottom">-18px</dimen>
+    <!-- 人人详情界面结束 -->
+
+
+    <!-- 人人个人资料界面 -->
+    <dimen name="dimen_renren_grid_top">10px</dimen>
+    <!-- 人人个人资料界面结束 -->
+
+
+    <!-- 下巴栏 -->
+    <dimen name="dimen_toolbal_icon_text_gap">0px</dimen>
+    <dimen name="dimen_toolbal_bottom_padding">2px</dimen>
+    <!-- 下巴栏 -->
+
+
+    <!-- 详情界面 -->
+    <dimen name="dimen_retweet_comment_cnt_gap">12px</dimen>
+    <!-- 详情界面 -->
+
+
+    <!-- 编辑界面 -->
+    <dimen name="dimen_edit_header_button_lr_gap">14px</dimen>
+    <dimen name="dimen_edit_header_button_top_gap">10px</dimen>
+    <dimen name="dimen_edit_header_title_top_gap">12px</dimen>
+    <dimen name="dimen_edit_header_title_arrow_gap">8px</dimen>
+    <dimen name="dimen_edit_header_back_button_padding">8px</dimen>
+    <dimen name="dimen_edit_padding_left">8px</dimen>
+    <dimen name="dimen_edit_padding_right">8px</dimen>
+    <dimen name="dimen_edit_padding_top">0px</dimen>
+    <dimen name="dimen_edit_padding_bottom">0px</dimen>
+    <dimen name="dimen_text_count_left_gap">5px</dimen>
+    <dimen name="dimen_text_count_right_gap">20px</dimen>
+    <!-- 编辑界面 -->
+
+
+    <!-- 发布等待框 -->
+    <dimen name="publish_dialog_padding_top">25px</dimen>
+    <dimen name="publish_dialog_padding_bottom">47px</dimen>
+    <dimen name="publish_dialog_padding_left">43px</dimen>
+    <dimen name="publish_dialog_padding_right">43px</dimen>
+    <dimen name="publish_dialog_list_margin_top">25px</dimen>
+    <dimen name="publish_dialog_list_margin_bottom">17px</dimen>
+    <dimen name="publish_dialog_list_padding_top">4px</dimen>
+    <dimen name="publish_dialog_list_padding_bottom">4px</dimen>
+    <dimen name="publish_dialog_list_padding_left">4px</dimen>
+    <dimen name="publish_dialog_list_padding_right">8px</dimen>
+    <dimen name="publish_dialog_list_img_padding_right">13px</dimen>
+    <!-- 发布等待框 -->
+
+
+    <!-- 搜索条 -->
+    <dimen name="dimen_search_bar_lr_gap">2px</dimen>
+    <dimen name="dimen_search_bar_start_text_gap">5px</dimen>
+    <dimen name="btnSearch_width">159px</dimen>
+    <dimen name="btnSearch_height">101px</dimen>
+    <dimen name="dimen_search_bar_bottom_gap">6px</dimen>
+    <!-- 搜索条 -->
+
+
+    <!-- 个人资料 -->
+    <dimen name="dimen_profile_header_padding_left">10dp</dimen>
+    <dimen name="dimen_profile_header_padding_right">10dp</dimen>
+    <dimen name="dimen_profile_header_padding_top">10dp</dimen>
+    <dimen name="dimen_profile_header_padding_bottom">6dp</dimen>
+    <dimen name="dimen_profile_dsp_left">10dp</dimen>
+    <dimen name="dimen_profile_dsp_right">10dp</dimen>
+    <dimen name="dimen_profile_dsp_top">6dp</dimen>
+    <dimen name="dimen_profile_dsp_bottom">8dp</dimen>
+    <dimen name="dimen_profile_grid_left">32px</dimen>
+    <dimen name="dimen_profile_grid_right">0px</dimen>
+    <dimen name="dimen_profile_grid_top">0px</dimen>
+    <dimen name="dimen_profile_grid_bottom">12px</dimen>
+    <dimen name="dimen_profile_grid_gap">33px</dimen>
+    <dimen name="dimen_profile_count_under_grid_gap">-27px</dimen>
+    <dimen name="dimen_profile_text_under_grid_gap">7px</dimen>
+    <!-- 个人资料 -->
+
+
+    <!-- 人人子界面 -->
+    <dimen name="sub_view_item_screen_name">30px</dimen>
+    <dimen name="sub_view_item_text">20px</dimen>
+    <dimen name="sub_view_item_padding_right">12px</dimen>
+    <dimen name="sub_view_item_padding">12px</dimen>
+    <dimen name="sub_view_name_padding_head">14px</dimen>
+    <dimen name="sub_view_text_padding_name">14px</dimen>
+    <dimen name="message_title_padding">19px</dimen>
+    <dimen name="message_title_padding_left">48px</dimen>
+    <dimen name="bithday_wish_text_size">14sp</dimen>
+    <dimen name="wish_text_size">16sp</dimen>
+    <!-- 人人子界面 -->
+    <dimen name="normal_head_size">50dp</dimen>
+    <dimen name="new_head_size">70dp</dimen>
+    <dimen name="mini_head_size">140px</dimen>
+    <dimen name="renren_edit_clear_btn_size">10px</dimen>
+    <dimen name="edit_progressbar_left_size">8px</dimen>
+    <dimen name="eidt_message">60px</dimen>
+    <dimen name="dimen_conversation_bar_height">45dp</dimen>
+    <dimen name="dimen_bottom_bar_height">157px</dimen>
+    <dimen name="dimen_tab_bottom_icon_height">70px</dimen>
+    <dimen name="dimen_tab_bottom_icon_width">70px</dimen>
+    <dimen name="dimen_button_height">120px</dimen>
+    <dimen name="type_layout_height">350px</dimen>
+    <dimen name="btnOperate_font_size">15dp</dimen>
+    <dimen name="tab_title_font_size">14dp</dimen>
+    <dimen name="login_font_size">52px</dimen>
+    <dimen name="btnSend_button_width">175px</dimen>
+    <dimen name="btnSend_button_height">100px</dimen>
+    <dimen name="barcode_item_height">160px</dimen>
+    <dimen name="mini_head_size_width">160px</dimen>
+    <dimen name="mini_head_size_height">100px</dimen>
+    <dimen name="notice_topbar_text_size">25px</dimen>
+    <dimen name="map_view_small_width">870px</dimen>
+    <dimen name="map_view_small_height">70dp</dimen>
+    <dimen name="locations_icon_width">32px</dimen>
+    <dimen name="message_tip_to_top">30px</dimen>
+    <dimen name="message_tip_to_left">6px</dimen>
+    <dimen name="location_font_size">28px</dimen>
+    <dimen name="fileSend_button_width">273px</dimen>
+    <dimen name="fileSend_button_height">120px</dimen>
+    <dimen name="button_file_width">920px</dimen>
+    <dimen name="button_file_height">134px</dimen>
+    <dimen name="Button_share_to_top">40px</dimen>
+    <dimen name="content_to_top">412px</dimen>
+    <dimen name="button_file_to_top">110px</dimen>
+    <dimen name="file_name_to_top">42px</dimen>
+    <dimen name="file_detail_to_top">42px</dimen>
+    <dimen name="file_detail_icon_width">256px</dimen>
+    <dimen name="file_download_font_size">60px</dimen>
+    <dimen name="file_button_to_top">72px</dimen>
+    <dimen name="file_date_to_file_stroage">80px</dimen>
+    <dimen name="file_icon_width">60dp</dimen>
+    <dimen name="download_progress_text">60px</dimen>
+    <dimen name="file_text1_string_to_left">120px</dimen>
+    <dimen name="file_text2_string_to_left">180px</dimen>
+    <dimen name="small_map_width">600px</dimen>
+    <dimen name="map_rank">17px</dimen>
+    <dimen name="small_map_height">300px</dimen>
+    <dimen name="file_view_min_width">450px</dimen>
+    <dimen name="small_map_text_size">35px</dimen>
+    <dimen name="small_map_text_height">60px</dimen>
+    <dimen name="location_address_to_top">240px</dimen>
+    <dimen name="rcd_voice_width">680px</dimen>
+    <dimen name="play_rcd_width">941px</dimen>
+    <dimen name="play_rcd_height">473px</dimen>
+    <dimen name="play_rcd_text_size">60px</dimen>
+    <dimen name="replay_video_rcd_width">400px</dimen>
+    <dimen name="replay_video_rcd_bg_width">1004px</dimen>
+    <dimen name="replay_video_rcd_bg_height">500px</dimen>
+    <dimen name="btn_rcd_height">110px</dimen>
+    <dimen name="play_button_width">320px</dimen>
+    <dimen name="play_button_height">160px</dimen>
+    <dimen name="play_rcd_text_height">120px</dimen>
+    <dimen name="tvVoice_width">54px</dimen>
+    <dimen name="log_in_edit_text_size">23sp</dimen>
+    <dimen name="user_To_left">64dip</dimen>
+    <dimen name="voice_bg_length_default">48dip</dimen>
+    <dimen name="file_no_font_size">12sp</dimen>
+    <dimen name="file_path_font_size">14sp</dimen>
+    <dimen name="dialog_width">45dip</dimen>
+    <dimen name="dialog_menuy_height">500dip</dimen>
+    <dimen name="serch_bar_bg_height">35dip</dimen>
+    <dimen name="serch_bar_height">30dip</dimen>
+    <dimen name="serch_bar_width">350dip</dimen>
+    <dimen name="suggestion_title_top">14dip</dimen>
+    <dimen name="suggestion_text_height">132dip</dimen>
+    <dimen name="contact_title_top">22dip</dimen>
+    <dimen name="suggestion_title_bottom">5dip</dimen>
+    <dimen name="suggestion_text_left">16dip</dimen>
+    <dimen name="commit_btn_top">31dip</dimen>
+    <dimen name="bbkDailogItemTextSize">60px</dimen>
+    <dimen name="progress_width">20dip</dimen>
+    <dimen name="progress_right">12dip</dimen>
+    <dimen name="progress_body_top">10dip</dimen>
+    <dimen name="progress_body_left">8dip</dimen>
+    <dimen name="scroll_padding_top">0dip</dimen>
+    <dimen name="scroll_padding_left">14dip</dimen>
+    <dimen name="scroll_padding_right">10dip</dimen>
+    <dimen name="message_padding">5dip</dimen>
+    <dimen name="button_layout">5dip</dimen>
+    <dimen name="right_btn_left">18dip</dimen>
+    <dimen name="right_btn_right">20dip</dimen>
+    <dimen name="list_divider_heigh">1px</dimen>
+    <dimen name="preview_view_to_top">100dp</dimen>
+    <dimen name="preview_Width">145dp</dimen>
+    <dimen name="preview_Width1">65dp</dimen>
+    <dimen name="preview_Height">145dp</dimen>
+    <dimen name="search_box_left">5dip</dimen>
+    <dimen name="column_width">90dp</dimen>
+    <dimen name="grid_spacing">10dp</dimen>
+    <dimen name="vertical_spacing">10dp</dimen>
+    <dimen name="grid_item_text_left">8dip</dimen>
+    <dimen name="grid_item_text_top">5dip</dimen>
+    <dimen name="search_bar_left">10dip</dimen>
+    <dimen name="bbk_btn_padding">5dip</dimen>
+    <dimen name="scan_btn_left">60dip</dimen>
+    <dimen name="scan_link_bottom">30dip</dimen>
+    <dimen name="scan_result_top">80dip</dimen>
+    <dimen name="barcode_left">13dip</dimen>
+    <dimen name="hotword_fontsize_cn">16sp</dimen>
+    <dimen name="hotword_fontsize_en">3sp</dimen>
+    <dimen name="hotword_fontsize">64px</dimen>
+    <dimen name="search_btn_width">54dp</dimen>
+    <dimen name="hot_item_left">30dp</dimen>
+    <dimen name="search_text_width">180dip</dimen>
+    <dimen name="search_bar_right">10dip</dimen>
+    <dimen name="paste_bode_height">108dp</dimen>
+    <dimen name="paste_bode_to_top">380dp</dimen>
+    <dimen name="paste_bode_tools_height">50dp</dimen>
+    <dimen name="paste_button_height">31dp</dimen>
+    <dimen name="paste_button_width">96dp</dimen>
+    <dimen name="opearte_width">112dp</dimen>
+    <dimen name="opearte_height">31dp</dimen>
+    <dimen name="checkbox_width">18dp</dimen>
+    <dimen name="checkbox_width1">15dp</dimen>
+    <dimen name="action_list_width">50dp</dimen>
+    <dimen name="tab_text_font_size">14sp</dimen>
+    <dimen name="tab_content_height">35dip</dimen>
+    <dimen name="file_width">112dp</dimen>
+    <dimen name="file_height">112dp</dimen>
+    <dimen name="file_text_font_size">16sp</dimen>
+    <dimen name="file_count_to_file_name">4dip</dimen>
+    <dimen name="file_count_text_font_size">10sp</dimen>
+    <dimen name="file_text_to_top">65dp</dimen>
+    <dimen name="category_legend_to_left">7dip</dimen>
+    <dimen name="category_legend_to_left1">10dip</dimen>
+
+</resources>

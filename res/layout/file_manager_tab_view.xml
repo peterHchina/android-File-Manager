@@ -1,0 +1,423 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@color/whole_background_color"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/first_resion"
+        android:layout_width="336dp"
+        android:layout_height="112dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab_music"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/music_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:text="@string/music"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/music_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/music_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/music"
+            android:background="@drawable/tab_video"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/video_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:text="@string/video"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/video_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/video_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/video"
+            android:background="@drawable/tab_picture"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/picture_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:gravity="center_horizontal"
+                android:text="@string/picture"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/picture_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/picture_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second_resion"
+        android:layout_width="336dp"
+        android:layout_height="112dp"
+        android:layout_below="@+id/first_resion"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:id="@+id/theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab_theme"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/theme_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:text="@string/theme"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/theme_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/theme_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/apk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/theme"
+            android:background="@drawable/tab_apk"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/apk_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:text="@string/apk"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/apk_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/apk_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/compress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/apk"
+            android:background="@drawable/tab_compress"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/compress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:text="@string/compress_bag"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/compress_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/compress_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/third_resion"
+        android:layout_width="336dp"
+        android:layout_height="112dp"
+        android:layout_below="@+id/second_resion"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:id="@+id/documents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab_documents"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/documents_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:text="@string/document"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/documents_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/documents_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/documents"
+            android:background="@drawable/tab_collection"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/collection_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:text="@string/collection"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/collection_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/collection_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/collection"
+            android:background="@drawable/tab_other"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/other_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_text_to_top"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_text_font_size" />
+
+            <TextView
+                android:id="@+id/other_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/other_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/file_count_to_file_name"
+                android:textColor="@color/file_count_text_font_color"
+                android:textSize="@dimen/file_count_text_font_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third_resion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dip"
+            android:layout_marginLeft="@dimen/category_legend_to_left1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sd_card_capacity"
+                style="@style/InformationTextStyle"
+                android:drawableLeft="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/sd_card_available"
+                style="@style/InformationTextStyle"
+                android:layout_marginLeft="10dip"
+                android:drawableLeft="@drawable/sdcard" />
+        </LinearLayout>
+
+        <com.example.managerfile.ui.CategoryBar
+            android:id="@+id/category_bar"
+            android:layout_width="357dip"
+            android:layout_height="18dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dip" >
+        </com.example.managerfile.ui.CategoryBar>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="@dimen/category_legend_to_left"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/category_legend_music"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/music_size" />
+
+                <TextView
+                    android:id="@+id/category_legend_video"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/video_size" />
+
+                <TextView
+                    android:id="@+id/category_legend_picture"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/picture_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="@dimen/category_legend_to_left"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/category_legend_theme"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/theme_size" />
+
+                <TextView
+                    android:id="@+id/category_legend_document"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/doc_size" />
+
+                <TextView
+                    android:id="@+id/category_legend_zip"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/pressed_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="@dimen/category_legend_to_left"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/category_legend_apk"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/apk_size" />
+
+                <TextView
+                    android:id="@+id/category_legend_other"
+                    style="@style/CategoryLegendStyle"
+                    android:drawableLeft="@drawable/other_size" />
+
+                <TextView style="@style/CategoryLegendStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:id="@+id/no_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="gone"
+        android:layout_centerInParent="true">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/no_categroy_files"/>
+    </LinearLayout>
+</RelativeLayout>

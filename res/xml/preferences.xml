@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings" >
+
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <PreferenceCategory />
+    <PreferenceCategory android:title="@string/manger_file" >
+        <Preference
+            android:key="com.FileManger.path"
+            android:summary="@string/app_name"
+            android:title="@string/apk_files_back_up" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="com.FileManger.HideFile"
+            android:summaryOff="@string/not_show_hide_files"
+            android:summaryOn="@string/show_hide_files1"
+            android:title="@string/show_hide_files" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:key="com.FileManger.clear"
+            android:summary="@string/clear_all_back_apps"
+            android:title="@string/clear_back_up" >
+        </Preference>
+        <Preference
+            android:key="com.FileManger.update"
+            android:summary="@string/update_app"
+            android:title="@string/update" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="@string/hello_world"
+        android:title="@string/manger_file_another_funcation" >
+        <Preference
+            android:key="com.FileManger.showIP"
+            android:summary="@string/show_ip_address1"
+            android:title="@string/show_ip_address" >
+        </Preference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="com.FileManger.showStroage"
+            android:summaryOff="@string/show_phone_stroage1"
+            android:title="@string/show_phone_stroage" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference
+            android:key="com.FileManger.suggestion"
+            android:summary="@string/suggestion"
+            android:title="@string/suggest" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

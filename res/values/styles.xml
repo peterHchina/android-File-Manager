@@ -1,0 +1,188 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="logo_theme" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="store_theme_NoTitleBar" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="android:windowTitleSize">@dimen/window_title_size</item>
+    </style>
+
+    <style name="DefineprogressBarStyleSmall" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:maxWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+    </style>
+
+    <style name="CustomProgressStyle" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:minWidth">100dip</item>
+        <item name="android:maxWidth">100dip</item>
+        <item name="android:minHeight">100dip</item>
+        <item name="android:maxHeight">100dip</item>
+    </style>
+
+    <style name="suggestion_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/suggestion_title_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/suggestion_text_left</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+    </style>
+
+    <style name="suggestion_input_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/suggestion_text_left</item>
+        <item name="android:layout_marginRight">@dimen/suggestion_text_left</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="suggestion_commit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginLeft">@dimen/suggestion_text_left</item>
+        <item name="android:layout_marginRight">@dimen/suggestion_text_left</item>
+        <item name="android:layout_marginTop">@dimen/commit_btn_top</item>
+        <item name="android:background">@drawable/btn_single_screen</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/commit</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+    </style>
+
+    <style name="create_comment_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/suggestion_title_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/suggestion_title_bottom</item>
+        <item name="android:layout_marginRight">@dimen/suggestion_title_bottom</item>
+        <item name="android:layout_marginTop">@dimen/suggestion_title_bottom</item>
+    </style>
+
+    <style name="progress_body">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">@dimen/progress_body_top</item>
+        <item name="android:paddingLeft">@dimen/progress_body_left</item>
+        <item name="android:paddingRight">@dimen/progress_body_left</item>
+        <item name="android:paddingTop">@dimen/progress_body_top</item>
+    </style>
+
+    <style name="progress_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/bbk_primary_text_dark</item>
+        <item name="android:textSize">@dimen/bbkDailogItemTextSize</item>
+    </style>
+
+    <style name="InformationTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:drawablePadding">5dip</item>
+    </style>
+
+    <style name="CategoryLegendStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:drawablePadding">5px</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">10dip</item>
+        <item name="android:layout_marginLeft">2dip</item>
+    </style>
+
+    <style name="CategoryLegendStyleLand">
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:drawablePadding">5px</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">10dip</item>
+        <item name="android:layout_marginLeft">2dip</item>
+    </style>
+
+    <style name="Widget.ProgressBar.vivo" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_blue</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">@dimen/progress_width</item>
+        <item name="android:maxWidth">@dimen/progress_width</item>
+        <item name="android:minHeight">@dimen/progress_width</item>
+        <item name="android:maxHeight">@dimen/progress_width</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/progress_right</item>
+        <item name="android:max">10000</item>
+    </style>
+
+    <style name="title_bar_back">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/activity_title_bar_44</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="search_box">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/search_bar_left</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/search_box</item>
+    </style>
+
+    <style name="search_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/search_bar_left</item>
+    </style>
+
+    <style name="close_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/tab_btn_close_normal</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="search_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:maxLength">200</item>
+        <item name="android:paddingLeft">@dimen/search_box_left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popwindows_show</item>
+        <item name="android:windowExitAnimation">@anim/popwindows_hide</item>
+    </style>
+
+    <style name="list_view_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@color/divider_color</item>
+        <item name="android:dividerHeight">@dimen/list_divider_heigh</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 打开地图按钮的背景设置 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 初始状态 -->
+    <item android:drawable="@drawable/titile_bg_old" android:state_selected="false"/>
+    <!-- 按下状态 -->
+    <item android:drawable="@drawable/title_pressed" android:state_selected="true"/>
+
+</selector>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/dialog_background"
+    android:orientation="vertical"
+    android:paddingBottom="4dip"
+    android:paddingLeft="10dip"
+    android:paddingTop="6dip" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="2dip">
+
+        <ImageView
+            android:id="@+id/file_icon"
+            android:layout_width="@dimen/file_icon_width"
+            android:layout_height="@dimen/file_icon_width"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dip"
+            android:textColor="@color/another_back"
+            android:textSize="@dimen/wish_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="2dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/kinds"
+            android:textColor="@color/another_back" />
+
+        <TextView
+            android:id="@+id/file_kinds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:textColor="@color/another_back"
+            android:textSize="@dimen/bithday_wish_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/location"
+            android:textColor="@color/another_back" />
+
+        <TextView
+            android:id="@+id/file_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:textColor="@color/another_back"
+            android:textSize="@dimen/bithday_wish_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contents_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/contains"
+            android:textColor="@color/another_back" />
+
+        <TextView
+            android:id="@+id/file_contains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:textColor="@color/another_back"
+            android:textSize="@dimen/bithday_wish_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/stroage"
+            android:textColor="@color/another_back" />
+
+        <TextView
+            android:id="@+id/file_stroage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:textColor="@color/another_back"
+            android:textSize="@dimen/bithday_wish_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/last_modifed"
+            android:textColor="@color/another_back" />
+
+        <TextView
+            android:id="@+id/file_last_modifed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dip"
+            android:textColor="@color/another_back"
+            android:textSize="@dimen/bithday_wish_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

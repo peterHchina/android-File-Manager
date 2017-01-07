@@ -1,0 +1,42 @@
+# view AndroidManifest.xml #generated:103
+-keep class com.example.managerfile.service.FTPServerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.managerfile.ui.ApplicationManagerActivity { <init>(...); }
+
+# view res/layout/file_manager_tab_view.xml #generated:328
+-keep class com.example.managerfile.ui.CategoryBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.example.managerfile.ui.FileManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.example.managerfile.ui.FileManagerCategoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.example.managerfile.ui.FileManagerCloud { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.example.managerfile.ui.FileManagerInRemoteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.example.managerfile.ui.FileManagerTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.example.managerfile.ui.FileMangerSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.example.managerfile.ui.ShowCategoryFilesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.example.managerfile.ui.ShowSearchResaultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.example.managerfile.ui.UserSuggestionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.example.managerfile.ui.barcode.CaptureActivity { <init>(...); }
+
+# view res/layout/camera_diy.xml #generated:12
+-keep class com.example.managerfile.ui.barcode.ViewfinderView { <init>(...); }
+

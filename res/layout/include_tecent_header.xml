@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llHeaderBase"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/preference_title_height"
+    android:background="@drawable/activity_title_bar_44"
+    android:orientation="horizontal" >
+
+    
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dip"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        android:maxEms="8"
+        android:textSize="@dimen/top_bar_title_size"
+        android:singleLine="true" 
+        android:text="@string/app_name"/>
+
+    
+
+</RelativeLayout>

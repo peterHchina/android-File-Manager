@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/whole_popwindows_background_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/search_box_area"
+        style="@style/title_bar_back" >
+
+        <ImageView
+            android:id="@+id/barcode_btn"
+            style="@style/search_btn"
+            android:src="@drawable/btn_barcode" />
+
+        <RelativeLayout
+            android:id="@+id/search_box"
+            style="@style/search_box" >
+
+            <ImageView
+                android:id="@+id/tab_search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/tab_btn_search_normal" />
+
+            <ImageView
+                android:id="@+id/close_btn"
+                style="@style/close_btn" />
+
+            <EditText
+                android:id="@+id/search_key_word"
+                style="@style/search_text"
+                android:focusable="true"
+                android:hint="@string/search_hide"
+                android:layout_width="@dimen/search_text_width"
+                android:layout_toRightOf="@+id/tab_search_btn"
+                android:ellipsize="end" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/search_btn"
+            style="@style/search_btn"
+            android:layout_width="@dimen/search_btn_width"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/search_bar_right"
+            android:background="@drawable/search_btn"
+            android:gravity="center"
+            android:src="@drawable/search_btn"
+            android:text="@string/search_title"
+            android:textColor="@color/search_btn_text"
+            android:textSize="@dimen/hotword_fontsize_cn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_windows_other"
+        style="@style/list_view_layout" />
+
+</LinearLayout>
